@@ -1,0 +1,33 @@
+body {
+  background-image: url("https://i.postimg.cc/9QFHpHjp/download.jpg");
+  background-size: cover;
+}
+
+.login {
+  margin-top: 100px;
+  color: #fff;
+}
+.login .card {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.login label {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.login input {
+  font-size: 22px !important;
+  color: #fff;
+}
+
+.login button:hover {
+  padding: 0px 40px;
+}
+
+#toast-container {
+  min-width: 10%;
+  top: 50%;
+  right: 50%;
+  transform: translateX(50%) translateY(50%);
+}
