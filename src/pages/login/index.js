@@ -20,19 +20,12 @@ export class Login {
             <div class="card-content">
               <div class="form-field">
                 <label for="username">Usuário</label>
-                <input type="email" id="username" class="validate" autocomplete="off"/>
+                <input type="text" id="username" class="validate" autocomplete="off"/>
               </div>
               <br />
               <div class="form-field">
                 <label for="password">Senha</label>
                 <input type="password" id="password" />
-              </div>
-              <br />
-              <div class="form-field">
-                <label for="remember">
-                  <input type="checkbox" id="remember" />
-                  <span>Lembrar-me</span>
-                </label>
               </div>
               <br />
               <div class="form-field center-align">
@@ -49,9 +42,7 @@ export class Login {
     $("#btnLogin").click(() => {
       const login = $("#username").val();
       const password = $("#password").val();
-      const remember = $("#remember").is(":checked");
-      this.onSuccess();
-      /*
+
       if (login.trim() == "" || password.trim() == "") {
         showError("Informe o usuário e a senha.");
         return;
@@ -60,7 +51,7 @@ export class Login {
       } else {
         showError("Usuário ou senha inválido.");
         return;
-      }*/
+      }
     });
   }
 }

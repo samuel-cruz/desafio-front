@@ -1,0 +1,7 @@
+table.v1 th.endereco, table.v1 td.endereco {
+    display: none;
+}
+
+.v1 .input-field.col.s6.fm-endereco {
+    display: none;
+}

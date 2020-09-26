@@ -4,6 +4,7 @@ import { Table } from "../table";
 
 export class Home {
   constructor() {
+    this.checked = true;
     this.initialize();
   }
 
@@ -16,6 +17,7 @@ export class Home {
     this.drawNavBar();
     this.createHeader();
     this.createTable();
+    this.checkVersion();
   }
 
   drawNavBar() {
@@ -23,10 +25,6 @@ export class Home {
     <nav>
       <div class="nav-wrapper  light-blue lighten-1">
         <a href="https://www.meta.com.br/" target="_blank" class="brand-logo">Meta</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#">Home</a></li>
-          <li><a href="cadatrar-pessoa.html">Cadastrar pessoa</a></li>
-        </ul>
       </div>
     </nav>
     `;
@@ -36,21 +34,19 @@ export class Home {
     $("#mainMenu").empty();
   }
 
-  createHeader(){
-    let html=`<div class="row">
-
+  createHeader() {
+    let html = `
+    <div class="row">
       <div class="row">
         <h2 class="grey-text">Listagem de pessoas</h1>
       </div>
+      <p>
+        <label>
+          <input id="version" type="checkbox"  checked="checked"/>
+          <span>Utilizar a versão mais recente</span>
+        </label>
+      </p>
       <div class="row">
-        <div class="file-field input-field">
-          <a class="btn btn-floating waves-effect waves-light blue right"><i class="material-icons left">search</i>>Button
-          </a>
-          <div class="file-path-wrapper">
-            <input id="email_input" type="text">
-          </div>
-        </div>
-
         <span  id="btnAdd">
           <a class="btn btn-floating waves-effect waves-light blue right"><i class="material-icons left">add</i></a>
         </span>
@@ -59,17 +55,26 @@ export class Home {
 
     $("#home").append(html);
 
+    let that = this;
+
     $("#btnAdd").click(() => {
       new Modal({
-        title: 'Adicionar Pessoa',
-        onSave: ''
+        title: "Adicionar Pessoa",
+        method: "POST",
       });
+      $("select").formSelect();
     });
-
   }
 
-
   createTable() {
-    new Table();    
+    new Table();
+  }
+
+  checkVersion() {
+    $("#version").change(function () {
+      this.checked
+        ? $("#gridRegisters").removeClass("v1")
+        : $("#gridRegisters").addClass("v1");
+    });
   }
 }

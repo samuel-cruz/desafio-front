@@ -27,7 +27,7 @@ body {
 
 #toast-container {
   min-width: 10%;
-  top: 50%;
+  top: 5em;
   right: 50%;
   transform: translateX(50%) translateY(50%);
 }

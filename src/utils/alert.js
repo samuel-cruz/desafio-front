@@ -1,7 +1,7 @@
 function showToast(message, classes) {
   M.toast({
     html: message,
-    displayLength: 1000,
+    displayLength: 10000,
     classes: classes,
   });
 }
