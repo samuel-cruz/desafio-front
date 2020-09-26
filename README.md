@@ -32,3 +32,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias/frameworks:
 - Ao abrir a tela de login informe:
 - - Usuário: meta
 - - Senha: meta@123
+
+---
+
+Feito com ♥ por Samuel Cruz :wave: [Fale comigo!](https://samuel-cruz.github.io/)
