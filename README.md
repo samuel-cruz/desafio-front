@@ -33,6 +33,18 @@ Este projeto foi desenvolvido com as seguintes tecnologias/frameworks:
 - - Usuário: meta
 - - Senha: meta@123
 
+<h1 align="center">
+    <img alt="Login" title="Login" src=".github/login.png" width="450px" />
+</h1>
+
+<h1 align="center">
+    <img alt="Home" title="Home" src=".github/home.png" width="450px" />
+</h1>
+
+<h1 align="center">
+    <img alt="Modal" title="Modal" src=".github/modal.png" width="450px" />
+</h1>
+
 ---
 
 Feito com ♥ por Samuel Cruz :wave: [Fale comigo!](https://samuel-cruz.github.io/)
