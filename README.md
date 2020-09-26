@@ -41,6 +41,10 @@ Este projeto foi desenvolvido com as seguintes tecnologias/frameworks:
     <img alt="Home" title="Home" src=".github/home.png" width="450px" />
 </h1>
 
+<h1 align="center">
+    <img alt="Modal" title="Modal" src=".github/modal.png" width="450px" />
+</h1>
+
 ---
 
 Feito com ♥ por Samuel Cruz :wave: [Fale comigo!](https://samuel-cruz.github.io/)
