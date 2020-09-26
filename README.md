@@ -5,7 +5,7 @@
 
 ## :computer: Projeto
 
-Frontend de um desafio proposto pela [Meta](https://www.meta.com.br/), o qual deve consumir [esta api](https://desafio-meta-back.herokuapp.com/swagger-ui.html#/) desenvolvida no [desafio](https://github.com/samuel-cruz/desafio/) relacionado ao backend:
+Front-end de um desafio proposto pela [Meta](https://www.meta.com.br/), o qual deve consumir [esta api](https://desafio-meta-back.herokuapp.com/swagger-ui.html#/) desenvolvida no [desafio](https://github.com/samuel-cruz/desafio/) relacionado ao back-end:
 
 Esta aplicação possui:
 - Grid onde é possível visualizar as pessoas cadastradas;
