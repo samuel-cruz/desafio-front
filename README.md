@@ -1,5 +1,5 @@
 <h4 align="center"> 
-	:construction: desafio-frontend :rocket:
+	:construction: desafio-front :rocket:
 </h4>
 <br>
 
